@@ -49,6 +49,14 @@ test:
       workload:
         module: benchmarks/scenario/base/delete.js
 
+
+monitors:
+  resource:
+  - module: docker
+    options:
+      interval: 5
+      containers:
+        - all
     
 
 
