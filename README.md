@@ -4,10 +4,10 @@ Configurations Done
 
     Number of orderers: 3
     Number of peers: 5
+    Batch SIze : 10
     Batch timeout: 2
     Number of Caliper workers: 1
     Number of transactions in Caliper: 1000
-    TPS (Transactions Per Second) of Caliper: 30
 
 Parameter to Be Changed
 
