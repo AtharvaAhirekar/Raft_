@@ -4,7 +4,7 @@ Configurations Done
 
     Number of orderers: 3
     Number of peers: 5
-    Batch timeout: 2
+    Batch Size: 10
     Number of Caliper workers: 1
     Number of transactions in Caliper: 1000
     TPS (Transactions Per Second) of Caliper: 30
@@ -13,7 +13,7 @@ Parameter to Be Changed
 
 Test Batch Size with Different Values
 
-For testing purposes, you can adjust the batch size parameter. Please refer to line 120 in the artifacts/channel/configtx.yaml file to make changes.
+For testing purposes, you can adjust the batch timeout parameter. Please refer to line 117 in the artifacts/channel/configtx.yaml file to make changes.
 
 
 
