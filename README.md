@@ -13,7 +13,7 @@ Parameter to Be Changed
 
 Test Batch Size with Different Values
 
-For testing purposes, you can adjust the batch size parameter. Please refer to line 120 in the artifacts/channel/configtx.yaml file to make changes.
+For testing purposes, you can adjust the TPS parameter. Please refer to line caliper/caliper-benchmarks-local/config.yaml file to make changes.
 
 
 
