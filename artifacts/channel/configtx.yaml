@@ -64,7 +64,7 @@ Organizations:
 
         AnchorPeers:
             - Host: peer0.org2.example.com
-              Port: 9051
+              Port: 8051
 
 Capabilities:
     Channel: &ChannelCapabilities
