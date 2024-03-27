@@ -61,11 +61,11 @@ channels:
       - orderer8.example.com
       - orderer9.example.com
       - orderer10.example.com
-      # - orderer11.example.com
-      # - orderer12.example.com
-      # - orderer13.example.com
-      # - orderer14.example.com
-      # - orderer15.example.com
+      - orderer11.example.com
+      - orderer12.example.com
+      - orderer13.example.com
+      - orderer14.example.com
+      - orderer15.example.com
     peers:
       peer0.org1.example.com:
         eventSource: true
@@ -164,36 +164,36 @@ orderers:
       ssl-target-name-override: orderer10.example.com
     tlsCACerts:
       path: networks/fabric/base/crypto-config/ordererOrganizations/example.com/orderers/orderer10.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
-  # orderer11.example.com:
-  #   url: grpcs://localhost:17050
-  #   grpcOptions:
-  #     ssl-target-name-override: orderer11.example.com
-  #   tlsCACerts:
-  #     path: networks/fabric/base/crypto-config/ordererOrganizations/example.com/orderers/orderer11.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
-  # orderer12.example.com:
-  #   url: grpcs://localhost:18050
-  #   grpcOptions:
-  #     ssl-target-name-override: orderer12.example.com
-  #   tlsCACerts:
-  #     path: networks/fabric/base/crypto-config/ordererOrganizations/example.com/orderers/orderer12.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
-  # orderer13.example.com:
-  #   url: grpcs://localhost:19050
-  #   grpcOptions:
-  #     ssl-target-name-override: orderer13.example.com
-  #   tlsCACerts:
-  #     path: networks/fabric/base/crypto-config/ordererOrganizations/example.com/orderers/orderer13.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
-  # orderer14.example.com:
-  #   url: grpcs://localhost:20050
-  #   grpcOptions:
-  #     ssl-target-name-override: orderer14.example.com
-  #   tlsCACerts:
-  #     path: networks/fabric/base/crypto-config/ordererOrganizations/example.com/orderers/orderer14.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
-  # orderer15.example.com:
-  #   url: grpcs://localhost:21050
-  #   grpcOptions:
-  #     ssl-target-name-override: orderer15.example.com
-  #   tlsCACerts:
-  #     path: networks/fabric/base/crypto-config/ordererOrganizations/example.com/orderers/orderer15.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+  orderer11.example.com:
+    url: grpcs://localhost:17050
+    grpcOptions:
+      ssl-target-name-override: orderer11.example.com
+    tlsCACerts:
+      path: networks/fabric/base/crypto-config/ordererOrganizations/example.com/orderers/orderer11.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+  orderer12.example.com:
+    url: grpcs://localhost:18050
+    grpcOptions:
+      ssl-target-name-override: orderer12.example.com
+    tlsCACerts:
+      path: networks/fabric/base/crypto-config/ordererOrganizations/example.com/orderers/orderer12.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+  orderer13.example.com:
+    url: grpcs://localhost:19050
+    grpcOptions:
+      ssl-target-name-override: orderer13.example.com
+    tlsCACerts:
+      path: networks/fabric/base/crypto-config/ordererOrganizations/example.com/orderers/orderer13.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+  orderer14.example.com:
+    url: grpcs://localhost:20050
+    grpcOptions:
+      ssl-target-name-override: orderer14.example.com
+    tlsCACerts:
+      path: networks/fabric/base/crypto-config/ordererOrganizations/example.com/orderers/orderer14.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
+  orderer15.example.com:
+    url: grpcs://localhost:21050
+    grpcOptions:
+      ssl-target-name-override: orderer15.example.com
+    tlsCACerts:
+      path: networks/fabric/base/crypto-config/ordererOrganizations/example.com/orderers/orderer15.example.com/msp/tlscacerts/tlsca.example.com-cert.pem
 
 peers:
   peer0.org1.example.com:

@@ -213,26 +213,26 @@ Profiles:
                   Port: 16050
                   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer10.example.com/tls/server.crt
                   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer10.example.com/tls/server.crt 
-                # - Host: orderer11.example.com
-                #   Port: 17050
-                #   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer11.example.com/tls/server.crt
-                #   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer11.example.com/tls/server.crt  
-                # - Host: orderer12.example.com
-                #   Port: 18050
-                #   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer12.example.com/tls/server.crt
-                #   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer12.example.com/tls/server.crt 
-                # - Host: orderer13.example.com
-                #   Port: 19050
-                #   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer13.example.com/tls/server.crt
-                #   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer13.example.com/tls/server.crt 
-                # - Host: orderer14.example.com
-                #   Port: 20050
-                #   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer14.example.com/tls/server.crt
-                #   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer14.example.com/tls/server.crt 
-                # - Host: orderer15.example.com
-                #   Port: 21050
-                #   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer15.example.com/tls/server.crt
-                #   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer15.example.com/tls/server.crt 
+                - Host: orderer11.example.com
+                  Port: 17050
+                  ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer11.example.com/tls/server.crt
+                  ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer11.example.com/tls/server.crt  
+                - Host: orderer12.example.com
+                  Port: 18050
+                  ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer12.example.com/tls/server.crt
+                  ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer12.example.com/tls/server.crt 
+                - Host: orderer13.example.com
+                  Port: 19050
+                  ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer13.example.com/tls/server.crt
+                  ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer13.example.com/tls/server.crt 
+                - Host: orderer14.example.com
+                  Port: 20050
+                  ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer14.example.com/tls/server.crt
+                  ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer14.example.com/tls/server.crt 
+                - Host: orderer15.example.com
+                  Port: 21050
+                  ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer15.example.com/tls/server.crt
+                  ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer15.example.com/tls/server.crt 
     
             Addresses:
                 - orderer.example.com:7050
@@ -245,11 +245,11 @@ Profiles:
                 - orderer8.example.com:14050
                 - orderer9.example.com:15050
                 - orderer10.example.com:16050
-                # - orderer11.example.com:17050
-                # - orderer12.example.com:18050
-                # - orderer13.example.com:19050
-                # - orderer14.example.com:20050
-                # - orderer15.example.com:21050
+                - orderer11.example.com:17050
+                - orderer12.example.com:18050
+                - orderer13.example.com:19050
+                - orderer14.example.com:20050
+                - orderer15.example.com:21050
 
             Organizations:
             - *OrdererOrg
