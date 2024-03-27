@@ -1,14 +1,14 @@
 test:
   workers:
     type: local
-    number: 5
+    number: 1
   rounds:
     - label: Create Car
       txNumber: 1000
       rateControl:
         type: fixed-rate
         opts:
-          tps: 100
+          tps: 30
       workload:
         module: benchmarks/scenario/base/createCar.js
 
@@ -17,7 +17,7 @@ test:
       rateControl:
         type: fixed-rate
         opts:
-          tps: 100
+          tps: 30
       workload:
         module: benchmarks/scenario/base/queryCar.js
       
@@ -26,7 +26,7 @@ test:
       rateControl:
         type: fixed-rate
         opts:
-          tps: 100
+          tps: 30
       workload:
         module: benchmarks/scenario/base/update.js
 
@@ -36,7 +36,7 @@ test:
       rateControl:
         type: fixed-rate
         opts:
-          tps: 100
+          tps: 30
       workload:
         module: benchmarks/scenario/base/transfer.js
 
@@ -45,18 +45,18 @@ test:
       rateControl:
         type: fixed-rate
         opts:
-          tps: 100
+          tps: 30
       workload:
         module: benchmarks/scenario/base/delete.js
 
 
-monitors:
-  resource:
-  - module: docker
-    options:
-      interval: 5
-      containers:
-        - all
+# monitors:
+#   resource:
+#   - module: docker
+#     options:
+#       interval: 5
+#       containers:
+#         - all
     
 
 
