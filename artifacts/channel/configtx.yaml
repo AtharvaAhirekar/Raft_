@@ -193,26 +193,26 @@ Profiles:
                   Port: 11050
                   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer5.example.com/tls/server.crt
                   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer5.example.com/tls/server.crt   
-                # - Host: orderer6.example.com
-                #   Port: 12050
-                #   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer6.example.com/tls/server.crt
-                #   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer6.example.com/tls/server.crt 
-                # - Host: orderer7.example.com
-                #   Port: 13050
-                #   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer7.example.com/tls/server.crt
-                #   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer7.example.com/tls/server.crt 
-                # - Host: orderer8.example.com
-                #   Port: 14050
-                #   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer8.example.com/tls/server.crt
-                #   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer8.example.com/tls/server.crt 
-                # - Host: orderer9.example.com
-                #   Port: 15050
-                #   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer9.example.com/tls/server.crt
-                #   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer9.example.com/tls/server.crt 
-                # - Host: orderer10.example.com
-                #   Port: 16050
-                #   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer10.example.com/tls/server.crt
-                #   ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer10.example.com/tls/server.crt 
+                - Host: orderer6.example.com
+                  Port: 12050
+                  ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer6.example.com/tls/server.crt
+                  ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer6.example.com/tls/server.crt 
+                - Host: orderer7.example.com
+                  Port: 13050
+                  ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer7.example.com/tls/server.crt
+                  ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer7.example.com/tls/server.crt 
+                - Host: orderer8.example.com
+                  Port: 14050
+                  ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer8.example.com/tls/server.crt
+                  ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer8.example.com/tls/server.crt 
+                - Host: orderer9.example.com
+                  Port: 15050
+                  ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer9.example.com/tls/server.crt
+                  ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer9.example.com/tls/server.crt 
+                - Host: orderer10.example.com
+                  Port: 16050
+                  ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer10.example.com/tls/server.crt
+                  ServerTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer10.example.com/tls/server.crt 
                 # - Host: orderer11.example.com
                 #   Port: 17050
                 #   ClientTLSCert: crypto-config/ordererOrganizations/example.com/orderers/orderer11.example.com/tls/server.crt
